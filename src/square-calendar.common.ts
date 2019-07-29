@@ -1,7 +1,7 @@
 
 import { View, Property, booleanConverter, CSSType } from "tns-core-modules/ui/core/view";
 
-@CSSType("Switch")
+@CSSType("SquareCalendar")
 export class Common extends View {
     // public static checkedChangeEvent = "checkedChange";
 

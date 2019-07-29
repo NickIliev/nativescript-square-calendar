@@ -1,0 +1,14 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo" 
+    xmlns:Calendar="nativescript-square-calendar"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+    
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Home"></Label>
+    </ActionBar>
+
+    <GridLayout>
+        <!-- Add your page content here -->
+        <Calendar:SquareCalendar></Calendar:SquareCalendar>
+    </GridLayout>
+</Page>
